@@ -38,8 +38,12 @@ nav>a, footer>a {
     padding: 10px;
 }
 nav>a:hover {
-
+    background-color: var(--cor3);
+}
+section#ifundos {
+    width: 100vw;
 }
 main {
+    min-width: 300px;
     background-color: var(--cor1);
 }
