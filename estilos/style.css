@@ -17,7 +17,7 @@ body, html {
     min-height: 100vh;
     background-color: var(--cor5);
     font-family: var(--texto);
-    font-size: 1.5em;
+
 }
 header {
     display: block;
@@ -49,6 +49,7 @@ main {
     min-width: 300px;
     max-width: 900px;
     line-height: 1.5em;
+    font-size: 1.5em;
     background-color: var(--cor1);
     text-indent: 20px;
     margin: auto;
@@ -59,15 +60,14 @@ main {
 }
 table#iinfo1 {
     height: 30vh;
-    min-width: 300px;
-    max-width: 900px;
+    
     background-color: var(--cor2);
     margin: auto;
     color: var(--cor4);
     font-size: 1.5em;
     font-weight: bolder;
     text-align: center;
-    
+  
 }
 table#iinfo1 td {
     width: 30vw;
@@ -81,7 +81,7 @@ img {
     margin: auto;
 }
 table#iinfo2 {
-    width: 900px;
+    
     height: 250px;
     line-height: normal;
     color: white;
@@ -103,11 +103,9 @@ table#iinfo2 td {
 div {
     width: 300px;
 }
-div {
-    height: 500px;
-    width: 900px;   
-    background: url('../imagens/cidades2.jpg') center left no-repeat scroll;
-    background-size: cover;
+div>img {
+   min-width: 300px;
+   max-width: 900px;
 }
 input {
     display: block;
