@@ -13,7 +13,7 @@
     --cor4: #054A59;
     --cor5: #022859;
 }
-body {
+body, html {
     min-height: 100vh;
     background-color: var(--cor5);
     font-family: var(--texto);
