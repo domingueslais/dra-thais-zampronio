@@ -20,7 +20,12 @@ body {
     font-size: 1.5em;
 }
 header {
-    background-image: url('../imagens/backg.png') ;
+    display: block;
+    height: 85vh;
+    background: url('../imagens/backg.png') center left no-repeat scroll ;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
 }
 nav, footer {
     background-color: var(--cor4);
@@ -40,10 +45,92 @@ nav>a, footer>a {
 nav>a:hover {
     background-color: var(--cor3);
 }
-section#ifundos {
-    width: 100vw;
-}
 main {
     min-width: 300px;
+    max-width: 900px;
+    line-height: 1.5em;
     background-color: var(--cor1);
+    text-indent: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+table#iinfo1 {
+    height: 30vh;
+    width: 900px;
+    background-color: var(--cor2);
+    margin: auto;
+    color: var(--cor4);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+table#iinfo1 td {
+    width: 30vw;
+}
+main>article>p{
+    padding: 10px;
+    margin-top: 10px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+table#iinfo2 {
+    width: 900px;
+    height: 250px;
+    line-height: normal;
+    color: white;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
+    border-collapse: collapse;
+    text-align: center;
+}
+table#iinfo2 td {
+    width: 30vw;
+    padding: 3px;
+}
+.cfundo1, .cfundo3 {
+    background-color: var(--cor4);
+}
+.cfundo2 {
+    background-color: var(--cor3);
+}
+div {
+    width: 300px;
+}
+div {
+    height: 500px;
+    width: 900px;   
+    background: url('../imagens/cidades2.jpg') center left no-repeat scroll;
+    background-size: cover;
+}
+input {
+    display: block;
+    width: fit-content;
+    background-color: var(--cor4);
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50px;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+input:hover {
+    font-weight: bolder;
+    transform: translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.514);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.788);
+}
+footer {
+    font-size: 0.8em;
 }
