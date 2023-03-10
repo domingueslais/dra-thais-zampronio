@@ -59,7 +59,8 @@ main {
 }
 table#iinfo1 {
     height: 30vh;
-    width: 900px;
+    min-width: 300px;
+    max-width: 900px;
     background-color: var(--cor2);
     margin: auto;
     color: var(--cor4);
